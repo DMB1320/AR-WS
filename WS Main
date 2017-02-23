@@ -1,0 +1,70 @@
+<!--2017/02/21-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="AppRiver, Mail Filter, E-mail Services" />
+        <meta name="description" content="AppRiver security solutions and e-mail client services." />
+
+        <title>AppRiver | Home</title>
+        <link rel="stylesheet" type="text/css" href="AppRiverStyles.css" />
+        <!--<?php
+        $servername = "localhost:3306";
+        $username = "root";
+        $password = "";
+
+        $conn = new mysqli($servername, $username, $password);
+        if ($conn->connect_error)
+        {
+        die("Connection failed: " . $conn->connect_error);
+        }
+        echo "Connected successfully";
+        ?>
+        <script>
+        $message_result = mysql_query("SELECT * FROM MessageClass");
+        while($message_row = mysql_fetch_array($message_result))
+        { echo "<p>".$message_row['MessageClass']."</p>"; }
+        </script>-->
+
+        <script type="text/javascript">
+            function copyRight()
+            {
+                var lastModDate = document.lastModified;
+                var lastModDate = lastModDate.substring(0,10);
+                displayCopyRight.innerHTML = "<p style = 'font-size:8pt; font-weight: bold;'> &copy; AppRiver <br/> This document was last modified "+lastModDate+ ". </p>"
+            }
+
+        </script>
+
+        <style type="text/css">
+            <!--
+            body            {background-color: #AE0808;}
+
+            a:hover         {color: #AE0808;}
+            -->
+        </style>
+    </head>
+
+    <body onload="copyRight();">
+        <a id="top"></a>
+
+        <header>
+            <h1>Welcome to AppRiver!</h1>
+
+            <br style="clear: both"/>
+        </header>
+
+        <section>
+            <article style="margin-right: 10px">
+                <a id=""></a>
+                <h2>Header 2</h2>
+
+                <a href="#top">To top</a>
+                <br style="clear: both"/>
+            </article>
+        </section>
+
+        <div id="displayCopyRight"></div>
+    </body>
+</html>
