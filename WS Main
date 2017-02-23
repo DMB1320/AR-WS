@@ -51,15 +51,95 @@
 
         <header>
             <h1>Welcome to AppRiver!</h1>
+            <img src = "defaultImage.jpg" width = "150" height = "150" alt = "some image" usemap = "bannerimgmap"/>
+            <map name="bannerimg" id="bannerimgmap">
+                <area shape="rect" coords="0,0,150,150" href="AppRiverHome.html" />
+            </map>
+
+            <div id="menubar">
+                <div id="menu1" class="menu"><a href="AppRiverHome.html">Home</a> &nbsp; &nbsp; &nbsp; &nbsp; | </span>
+                    <ul>
+                        <li><a href="AppRiverHome.html#1">Section 1</a></li>
+                        <li><a href="AppRiverHome.html#2">Section 2</a></li>
+                        <li><a href="AppRiverHome.html#3">Section 3</a></li>
+                    </ul>
+                </div>
+
+                <div id="menu2" class="menu"><a href="AppRiverHome.html">Page 1</a> &nbsp; &nbsp; &nbsp; &nbsp; | </span>
+                    <ul>
+                        <li><a href="AppRiverHome.html#1">Page 1, Section 1</a></li>
+                        <li><a href="AppRiverHome.html#2">Page 1, Section 2</a></li>
+                        <li><a href="AppRiverHome.html#3">Page 1, Section 3</a></li>
+                    </ul>
+                </div>
+
+                <div id="menu3" class="menu"><a href="AppRiverHome.html">Page 2</a> &nbsp; &nbsp; &nbsp; &nbsp; | </span>
+                    <ul>
+                        <li><a href="AppRiverHome.html#1">Page 2, Section 1</a></li>
+                        <li><a href="AppRiverHome.html#2">Page 2, Section 2</a></li>
+                        <li><a href="AppRiverHome.html#3">Page 2, Section 3</a></li>
+                    </ul>
+                </div>
+
+                <div id="menu4" class="menu"><a href="AppRiverHome.html">Page 3</a> &nbsp; &nbsp; &nbsp; &nbsp; | </span>
+                    <ul>
+                        <li><a href="AppRiverHome.html#1">Page 3, Section 1</a></li>
+                        <li><a href="AppRiverHome.html#2">Page 3, Section 2</a></li>
+                        <li><a href="AppRiverHome.html#3">Page 3, Section 3</a></li>
+                    </ul>
+                </div>
+
+                <div id="menu5" class="menu"><a href="AppRiverHome.html">Extras</a>
+                    <ul>
+                        <li><a href="AppRiverHome.html#AV Media">AV Media</a></li>
+                        <li><a href="AppRiverHome.html#Pictures">Pictures</a></li>
+                    </ul>
+                </div>
+            </div>
 
             <br style="clear: both"/>
         </header>
 
         <section>
             <article style="margin-right: 10px">
-                <a id=""></a>
-                <h2>Header 2</h2>
+                <a id="1"></a>
+                <img class="align-left" src="defaultImage.jpg" width="150" height="150" alt="some image" usemap="#img1map"/>
+                <map name="img1" id="img1map">
+                    <area shape="rect" coords="0,0,150,150" href="AppRiverHome.html#1" />
+                </map>
 
+                <h2>Header 1</h2>
+                <p>Some text with <a href="AppRiverHome.html#1">a link</a>. Woo</p>
+                <a href="#top">To top</a>
+                <br style="clear: both"/>
+            </article>
+        </section>
+
+        <section>
+            <article style="margin-right: 10px">
+                <a id="2"></a>
+                <img class="align-right" src="defaultImage.jpg" width="150" height="150" alt="some image" usemap="#img2map"/>
+                <map name="img2" id="img2map">
+                    <area shape="rect" coords="0,0,150,150" href="AppRiverHome.html#2" />
+                </map>
+
+                <h2>Header 2</h2>
+                <p>Some text with <a href="AppRiverHome.html#2">a link</a>. Woo</p>
+                <a href="#top">To top</a>
+                <br style="clear: both"/>
+            </article>
+        </section>
+
+        <section>
+            <article style="margin-right: 10px">
+                <a id="3"></a>
+                <img class="align-left" src="defaultImage.jpg" width="150" height="150" alt="some image" usemap="#img3map"/>
+                <map name="img3" id="img3map">
+                    <area shape="rect" coords="0,0,150,150" href="AppRiverHome.html#3" />
+                </map>
+
+                <h2>Header 3</h2>
+                <p>Some text with <a href="AppRiverHome.html#3">a link</a>. Woo</p>
                 <a href="#top">To top</a>
                 <br style="clear: both"/>
             </article>
